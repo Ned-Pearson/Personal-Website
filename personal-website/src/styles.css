@@ -1,0 +1,63 @@
+.desktop {
+    background-color: #008080;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .icon {
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 120px;
+    border-radius: 2px;
+    background-color: #c0c0c0;
+    border: 2px solid #808080;
+    box-shadow: 2px 2px 0px #404040;
+    font-family: "MS Sans Serif", sans-serif;
+    font-size: 14px;
+  }
+  
+  .folder {
+    background-color: #c0c0c0;
+    padding: 10px;
+    border: 2px solid #808080;
+    box-shadow: 2px 2px 0px #404040;
+  }
+  
+  .window {
+    background: #c0c0c0;
+    border: 2px solid #808080;
+    box-shadow: 4px 4px 0px #404040;
+    padding: 10px;
+    position: absolute;
+    font-family: "MS Sans Serif", sans-serif;
+  }
+  
+  .window-header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #000080, #000060);
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .window-content {
+    padding: 10px;
+  }
+  
+  .folder-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
